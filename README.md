@@ -5,3 +5,5 @@
 *methodology from The Book by Tom Tango, Mitchel Lichtman, and Andrew Dolphin*
 
 ---
+
+You can access it [here]](https://nd.observablehq.cloud/re24/)
