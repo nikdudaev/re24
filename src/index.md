@@ -35,6 +35,9 @@ const seasonSelector = view(Inputs.select(seasons, {value: "1950", label: "Selec
   <div class="card">
     If you spot any errors or think that calculations are wrong, or you have ideas how to make this page more useful, or simply want to send good vibes my way <a href= "mailto: nikolay.dudaev@proton.me"> send me an email </a>
   </div>
+  <div class="card">
+    The project is on <a href= "https://github.com/nikdudaev/re24"> GitHub </a>
+  </div>
 </div>
 
 <style>
