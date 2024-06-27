@@ -6,4 +6,4 @@
 
 ---
 
-You can access it [here]](https://nd.observablehq.cloud/re24/)
+You can access it [here](https://nd.observablehq.cloud/re24/)
