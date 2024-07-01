@@ -29,14 +29,6 @@ const seasonSelector2 = view(Inputs.select(seasons, {value: "1950", label: "Sele
   }</div>
 </div>
 
----
-
-<div class="grid grid-cols-1">
-  <div class="card">
-    If you spot any errors or think that calculations are wrong, or you have ideas how to make this page more useful, or simply want to send good vibes my way <a href= "mailto: nikolay.dudaev@proton.me"> send me an email </a>
-  </div>
-</div>
-
 <style>
 
 .hero {
