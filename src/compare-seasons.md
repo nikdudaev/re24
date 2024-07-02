@@ -10,13 +10,13 @@ theme: "air"
 <!-- Load and transform the data -->
 
 ```js
-const re = await FileAttachment("re_1950_2023.csv").csv();
+const re = await FileAttachment("re_1912_2023.csv").csv();
 const seasons = [...new Set(re.map(d => d.Season))];
 ```
 
 ```js
-const seasonSelector1 = view(Inputs.select(seasons, {value: "1950", label: "Select season:"}));
-const seasonSelector2 = view(Inputs.select(seasons, {value: "1950", label: "Select season:"}));
+const seasonSelector1 = view(Inputs.select(seasons, {value: "1912", label: "Select season:"}));
+const seasonSelector2 = view(Inputs.select(seasons, {value: "1912", label: "Select season:"}));
 ```
 ---
 

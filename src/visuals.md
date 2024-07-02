@@ -16,7 +16,7 @@ import {RESeasonsChanges} from './components/RESeasonsChanges.js';
 ```
 
 ```js
-const re = aq.fromCSV(await FileAttachment("re_1950_2023.csv").text());
+const re = aq.fromCSV(await FileAttachment("re_1912_2023.csv").text());
 const baseOutStates = new Array(...new Set(re.select("Bases")._data.Bases.data));
 const numOuts = ["0 Outs", "1 Out", "2 Outs"];
 ```

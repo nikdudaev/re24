@@ -14,13 +14,15 @@ export function RESeasonsChanges(reWithSummary, selectBaseOutState, selectNumOut
         color: {
           legend: true,
           domain: [
+            "Dead-Ball Era",
+            "Live-Ball Era",
             "Integration Era",
             "Expansion Era",
             "Free Agency Era",
             "Steroid Era",
             "Modern Era"
           ],
-          range: ["#845EC2", "#4B4453", "#B0A8B9", "#C34A36", "#FF8066"]
+          range: ["#219C90", "#FFC700", "#845EC2", "#4B4453", "#B0A8B9", "#C34A36", "#FF8066"]
         },
         y: {
           domain: [

@@ -6,12 +6,12 @@ theme: "air"
 <!-- Load and transform the data -->
 
 ```js
-const re = await FileAttachment("re_1950_2023.csv").csv();
+const re = await FileAttachment("re_1912_2023.csv").csv();
 const seasons = [...new Set(re.map(d => d.Season))];
 console.log(seasons);
 ```
 
-## Run Expectancy Matrices for 1950-2023 MLB seasons
+## Run Expectancy Matrices for 1912-2023 MLB seasons
 ---
 *Matrices are calculated using data from <a href="https://retrosheet.org">Retrosheet</a>, and*   
 *methodology from The Book by Tom Tango, Mitchel Lichtman, and Andrew Dolphin*
@@ -19,7 +19,7 @@ console.log(seasons);
 ---
 
 ```js
-const seasonSelector = view(Inputs.select(seasons, {value: "1950", label: "Select season:"}));
+const seasonSelector = view(Inputs.select(seasons, {value: "1912", label: "Select season:"}));
 ```
 ---
 
